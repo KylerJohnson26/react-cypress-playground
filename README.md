@@ -2,8 +2,9 @@ This is a small demo showing how Cypress (an awesome end-to-end testing frameowr
 
 To see it in action:
 * Run `git clone https://github.com/kljohnson2/react-cypress-playground.git`
-* Then, `cd react-cypress-playground && npm install`
-* Run `npm start` to start up the project on localhost:3000
+* Then, `cd react-cypress-playground` to move into the project directory
+* Next, run `npm install` to install all of the dependencies
+* Run `npm start` to start up the project on `localhost:3000`
 
 This is a super basic to-do list. You can add a to-do to the list or you can click on a to-do to delete it.
 
