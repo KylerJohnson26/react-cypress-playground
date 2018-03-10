@@ -8,8 +8,8 @@ class App extends Component {
 
   state = {
     todos: [
-      { id: 0, description: 'Learn Node' },
-      { id: 1, description: 'Learn React' },
+      { id: 0, description: "Return dad's call" },
+      { id: 1, description: 'Pay bills' },
       { id: 2, description: 'Learn Webpack' }
     ],
     newTodoDescription: ''
@@ -52,7 +52,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
-        <ul className="list-group">
+        <ul className="list-group" data-testid="list-of-todos">
           <TodoList 
             todos={this.state.todos}
             deleteTodo={this.deleteTodoHandler}/>
