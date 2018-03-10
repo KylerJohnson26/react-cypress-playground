@@ -9,7 +9,8 @@ To see it in action:
 This is a super basic to-do list. You can add a to-do to the list or you can click on a to-do to delete it.
 
 * To open the Cypress UI, run `npm run cypress:open`
-* Click on the `AddTodo.spec.js` test. It tests the add functionality.
+* Click on `AddTodo.spec.js` to test the add functionality.
+* Click on `DeleteTodo.spec.js` to test the delete functionality.
 
 To see the test that you just ran, open the project in your favorite text editor and navigate to
 `Cypress/integrations/AddTodo.spec.js` and take a look.
